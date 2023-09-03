@@ -11,21 +11,24 @@
 }
 
 .friendText {
-
+    background-color: #F5F7FB;
 }
 
 .friendText:after {
-
+    border-color: transparent #F5F7FB;
 }
 
 .friendName {
-
+    font-size: 18px;
+    margin-bottom: 3px;
 }
 
 .friendMessageText {
-
+    font-weight: 400;
+    white-space: break-spaces;
 }
 
 .friendTime {
-
+    font-size: 10px;
+    margin-left: 12px;
 }

@@ -1,5 +1,5 @@
 .message {
-
+    transform: scale(-1, 1);
 }
 
 .imageAndText {
@@ -11,21 +11,30 @@
 }
 
 .text {
-
+    background-color: #06C;
 }
 
 .text:after {
-
+    border-color: transparent #06C;
 }
 
 .name {
-
+    transform: scaleX(-1);
+    color: #FFF;
+    font-size: 18px;
+    margin-bottom: 3px;
 }
 
 .messageText {
-
+    transform: scaleX(-1);
+    color: #FFF;
+    font-weight: 400;
+    white-space: break-spaces;
 }
 
 .time {
-
+    transform: scale(-1, 1);
+    text-align: right;
+    font-size: 10px;
+    margin-left: 12px;
 }
