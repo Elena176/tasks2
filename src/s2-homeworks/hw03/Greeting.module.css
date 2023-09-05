@@ -2,21 +2,60 @@
 }
 
 .inputAndButtonContainer {
+    display: flex;
 }
 
 .error {
+    color: #C00;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 7px;
 }
 
 .input {
+    outline: none;
+    border: 1px solid #D1D1D1;
+    min-width: 372px;
+    height: 36px;
+    padding: 8px 12px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 3px;
 }
 
 .input:focus {
+
 }
 
 .errorInput {
+    outline: none;
+    border: 1px solid #C00;
+    min-width: 372px;
+    height: 36px;
+    padding: 8px 12px;
+    border-radius: 3px;
 }
 
 .button {
+    display: inline-flex;
+    height: 36px;
+    padding: 5px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 1px solid #06C;
+    /*background-color: var(--primary-100, #06C);*/
+    background-color: #06C;
+    color: #FFF;
+    margin-left: 12px;
+    outline: none;
+    cursor: pointer;
 }
 
 .button:focus {
@@ -26,10 +65,18 @@
 }
 
 .button:disabled {
+    opacity: 0.5;
 }
 
 .text {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 9px;
 }
 
 .greeting {
+    font-size: 14px;
+    font-weight: 500;
 }
+
