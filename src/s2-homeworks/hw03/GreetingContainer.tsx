@@ -23,8 +23,8 @@ export const pureOnBlur = (name: string, setError:  (error: string) => void) => 
     }
 }
 
-export const pureOnEnter = (e: KeyboardEvent<HTMLInputElement>, addUser: () => void) => {
-    if (e.keyCode === 13) {
+export const pureOnEnter = (e: KeyboardEvent, addUser: () => void) => {
+    if (e.key === 'Enter') {
         addUser()
     }
 }
@@ -55,7 +55,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
     }
 
     const totalUsers = users.length
-    const lastUserName = name;
+    const lastUserName = users.length ? users[users.length - 1].name : '';
 
     return (
         <Greeting
