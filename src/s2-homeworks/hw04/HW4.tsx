@@ -15,7 +15,6 @@ const HW4 = () => {
             <div className={`${s2.commonTextStyle} + ${s2.hwTitle}`}>Homework #4</div>
             <div className={s2.hw}>
                 <Stand />
-              hello
             </div>
         </div>
     )
